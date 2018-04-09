@@ -3,110 +3,218 @@
 	<title>Responsive</title>
 
 	<link rel="stylesheet" href="../stylesheet/main.css">
+	<link rel="stylesheet" href="../stylesheet/media-query.css">
 	<link rel="stylesheet" href="../stylesheet/guides.css">
+	<link rel="stylesheet" href="../stylesheet/typography.css">
+	<link rel="stylesheet" href="../stylesheet/cards.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 	<header class="main-header">
 		<nav class="main-nav">
-			
+			<div class="container grid">
+				<div class="col span_3">
+					<img src="../images/logo_black.png" alt="" class="site-logo">
+
+					<div class="nav-drawer">
+						<a href=""><img src="../images/icons/menu.svg" alt=""></a>
+					</div>
+				</div>
+				<div class="nav-links col span_9 textright">
+					<a href="" class="bold">Home</a>
+					<a href="" class="bold">New Cars</a>
+					<a href="" class="bold">Used Cars</a>
+					<a href="" class="bold">News &amp; Reviews</a>
+					<a href="" class="bold">Car Comparison</a>
+					<a href="" class="bold">More</a>
+					<a href="" class="bold">Sell Your Car</a>
+				</div>
+			</div>
 		</nav>
+
+		<div class="hero-wrapper positionrelative">
+			<div class="hero-image positionabsolute"></div>
+
+			<div class="container content positionrelative">
+				<h1 class="bold nomargin">Car Buying, Simplified.</h1>
+				<p class="nomargin">
+					Search thousands of car models. Connect with a sales agent you can trust.
+				</p>
+
+				<div class="hero-buttons margintop20">
+					<a href="" class="button">Find a new car</a>
+					<a href="" class="button secondary">Buy a used car</a>
+				</div>
+			</div>
+		</div>
 	</header>
 
-	<div class="sample grid">
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_1">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
+	<div class="subtext container">
+		<p class="small">
+			Buying a car in the Philippines can sometimes be confusing. That’s why we are reinventing the way buyers connect with car dealerships online. AutoDeal provides buyers with the means to research and compare hundreds of vehicles and auto-financing deals. We then provide a hassle-free service to connect buyers with official car dealerships from across the country.
+		</p>
+	</div>
+
+	<hr class="nomargin">
+
+	<div id="featured-newcar-promo" class="container margintop30 marginbottom30 paddingtop paddingbottom20">
+		<p class="sectionheading nomargin">Featured New Car Promos</p>
+		<p class="helptext nomargin small paddingbottom20">The AutoDeal Car Promos section provides details on limited time financial promos, discounts and special offerings from a wide range of automotive brands.</p>
+
+		<div class="card-holder margintop">
+			<div class="grid">
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h5 class="nomargin">2 Days Left</h5>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
+
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h4 class="nomargin">2 Days Left</h4>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
+
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h4 class="nomargin">2 Days Left</h4>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
+
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="sample grid">
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_2">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-	</div>
+	<hr class="nomargin">
 
-	<div class="sample grid">
-		<div class="col span_3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_3">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-	</div>
+	<div id="recent-newcar-promo" class="container margintop30 marginbottom30 paddingtop paddingbottom20">
+		<p class="sectionheading nomargin">Recently Launched New Car</p>
+		<p class="helptext nomargin small paddingbottom20">The AutoDeal Car Promos section provides details on limited time financial promos, discounts and special offerings from a wide range of automotive brands.</p>
 
-	<div class="sample grid">
-		<div class="col span_4">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_4">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_4">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-	</div>
+		<div class="card-holder margintop">
+			<div class="grid">
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h5 class="nomargin">2 Days Left</h5>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
 
-	<div class="sample grid">
-		<div class="col span_6">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
-		</div>
-		<div class="col span_6">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, provident.
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h4 class="nomargin">2 Days Left</h4>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
+
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col span_4">
+					<div class="card promo-card">
+						<div class="image">
+							<img src="../images/card.jpg" alt="">
+						</div>
+						<div class="card-content">
+							<div class="textcenter">
+								<h4 class="bold nomargin paddingtop paddingbottom">Mazda3 Skyctiv R with P12,329 Low Monthly</h4>
+							</div>
+							
+							<div class="promo-details paddingleft5 paddingright5 paddingtop paddingbottom">
+								<div>
+									<h4 class="nomargin">2 Days Left</h4>
+									<p class="small nomargin reducedopacity">NCR</p>
+								</div>
+
+								<div>
+									<img src="../images/mazda.png" class="manufacturer-logo" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </body>

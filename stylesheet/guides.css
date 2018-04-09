@@ -27,3 +27,58 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+@media only screen and (max-width: 600px) {
+	.span_1 { width: 100%; }
+	.span_2 { width: 100%; }
+	.span_3 { width: 100%; }
+	.span_4 { width: 100%; }
+	.span_5 { width: 100%; }
+	.span_6 { width: 100%; }
+	.span_7 { width: 100%; }
+	.span_8 { width: 100%; }
+	.span_9 { width: 100%; }
+	.span_10 { width: 100%; }
+	.span_11 { width: 100%; }
+	.span_12 { width: 100%; }
+}
+
+hr {
+	background: #E7E7E7;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 1px;
+    margin: 3em 0;
+    border: none;
+}
+
+/* helpers */
+.positionrelative { position: relative; }
+.positionabsolute { position: absolute; }
+
+.margintop { margin-top: 10px; }
+.margintop20 { margin-top: 20px; }
+.margintop30 { margin-top: 30px; }
+
+.marginbottom { margin-bottom: 10px; }
+.marginbottom20 { margin-bottom: 20px; }
+.marginbottom30 { margin-bottom: 30px; }
+
+.paddingtop { padding-top: 10px; }
+.paddingtop20 { padding-top: 20px; }
+.paddingtop30 { padding-top: 30px; }
+
+.paddingbottom { padding-bottom: 10px; }
+.paddingbottom20 { padding-bottom: 20px; }
+.paddingbottom30 { padding-bottom: 30px; }
+
+.paddingleft5 { padding-left: 5px; }
+.paddingleft { padding-left: 10px; }
+.paddingleft20 { padding-left: 20px; }
+.paddingleft30 { padding-left: 30px; }
+
+.paddingright5 { padding-right: 5px; }
+.paddingright { padding-right: 10px; }
+.paddingright20 { padding-right: 20px; }
+.paddingright30 { padding-right: 30px; }

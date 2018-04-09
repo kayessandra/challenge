@@ -1,0 +1,42 @@
+/* mobile rules */
+@media only screen and (max-width: 600px) {
+	.container {
+		min-width: 100%;
+	    max-width: 100%;
+	    padding: 10px;
+		margin: 0 auto;
+	}
+
+	/* Main Navigation Rules */
+	.main-nav { padding: 5px 0px; }
+
+	.site-logo { 
+		width: 110px; 
+		padding-top: 5px;
+	}
+
+	.hero-wrapper { height: 450px; }
+
+	.hero-image { height: 450px; }
+
+	.nav-links { display: none; }
+
+	.nav-drawer { 
+		display: inline-block;
+		float: right;
+		padding-right: 10px;
+	}
+
+	.nav-drawer img { width: 18px; }
+
+	/* Hero header */
+	.hero-image { background-position: 70%; }
+	
+	.content { top: 25%; }
+	.content h1 { font-size: 23px; }
+	.content p { font-size: 12px; }
+
+	.hero-buttons a { margin-top: 5px; }
+
+	.subtext { padding: 20px 30px; }
+}

@@ -1,0 +1,60 @@
+.card {
+	margin-bottom: 1.875em;
+	position: relative;
+	overflow: visible;
+	border-radius: 3px;
+	border: 1px solid #e7e7e7;
+}
+
+.image {
+	max-height: 200px;
+    overflow: hidden;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.image img { width: 100%; }
+
+.card-content {
+	padding: 10px;
+}
+
+.card-content .textcenter { white-space: normal; }
+
+.promo-details div {
+	display: inline-block;
+	width: 49%;
+}
+
+.manufacturer-logo { 
+	width: 50px; 
+	float: right;
+}
+
+@media only screen and (max-width: 600px) {
+	.card-holder .grid {
+		flex-flow: nowrap;
+		overflow-y: hidden;
+		overflow-x: scroll;
+		white-space: nowrap;
+	}
+
+	.card-holder .grid:before {
+		content: ".";
+	    display: block;
+	    height: 0;
+	    overflow: hidden;
+	}
+	.card-holder .grid:after {
+		content: ".";
+	    display: block;
+	    height: 0;
+	    overflow: hidden;
+	}
+
+	.card-content h4 { font-size: 14px; }
+
+	.manufacturer-logo { width: 40px; }
+
+	#featured-newcar-promo .helptext { display: none; }
+	#recent-newcar-promo .helptext { display: none; }
+}

@@ -1,0 +1,80 @@
+body {
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 1.8em;
+    -webkit-text-size-adjust: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+p {
+	font-style: normal;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+.sectionheading {
+	text-transform: uppercase;
+	font-size: 13px;
+	opacity: 0.5;
+}
+
+.helptext {
+	opacity: 0.3;
+}
+
+a { 
+	text-decoration: none; 
+    color: #222222;
+}
+
+a:hover {
+	color: #888888;
+	transition: .3s all;
+}
+
+a.button {
+	width: auto; 
+    padding: 0.7rem 1rem 0.8rem 1rem; 
+    background-color: #FF6725;
+    color: #ffffff;
+    border-radius: 3px;
+    transition: .3s all;
+    border: 1px solid #FF6725;
+    cursor: pointer; 
+    display: inline-block; 
+    text-align: center; 
+    text-decoration: none; 
+    text-transform: capitalize;
+    position: relative;
+    line-height: 1.1em;
+}
+a.button:hover {
+	text-decoration: none;
+	background: #FF7A30;
+}
+
+a.button.secondary {
+	background: #222222;
+    border: 1px solid #222222;
+}
+a.button.secondary:hover {
+	background: #4A4A4A;
+    border: 1px solid #4A4A4A;
+}
+
+/* helpers */
+.bold { font-weight: bold; }
+.small { font-size: 12px; }
+
+.textright { text-align: right; }
+.textleft { text-align: left; }
+.textcenter { text-align: center; }
+
+.nomargin { margin: 0px; }
+
+.reducedopacity { opacity: 0.4; }
