@@ -1,5 +1,5 @@
 /* mobile rules */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 	.container {
 		min-width: 100%;
 	    max-width: 100%;
@@ -65,4 +65,77 @@
 		display: inline-block;
 		margin: 0px;
 	}
+
+	#subscription .card { 
+		width: 100%; 
+		margin: 0 auto;
+		align-items: center;
+		padding: 40px 20px;
+	}
+
+	#subscription img { width: 110px; }
+
+	.article-list li { 
+		border-bottom: 1px solid #e7e7e7; 
+		padding: 20px 20px;
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.article-list li:last-of-type { border-bottom: none; }
+
+	.featured-article .article-image { width: 100%; }
+
+	.article-image img { width: 100%; }
+
+	.featured-article .article-details { width: 100%; }
+
+	.article .article-image { 
+		width: 50%; 
+		padding-top: 10px;
+	}
+
+	.article .article-details { width: 50%; }
+
+	.article .featured-label { font-size: 12px; }
+	.article h3 { font-size: 14px; }
+	.article h3 ~ span { display: none; }
+
+	.featured-article .button { 
+		font-size: 14px; 
+		padding: 11px 10px;
+	}
+
+	.short-intro { display: none; }
+
+	#car-comparison .word-wrap ~ div p { display: none; }
+
+	#car-comparison .word-wrap h4 { height: 110px !important; }
+
+	#featured-usedcar .location { display: none; }
+	#featured-usedcar .date { display: none; }
+	#featured-usedcar h3 { font-size: 18px; }
+	#featured-usedcar h3 ~ p { display: none; }
+	#featured-usedcar .word-wrap > span { font-size: 13px; }
+
+	form .span_2 { 
+		margin: 10px 0px; 
+	}
+
+	footer .mobile-footer { display: inline-flex; }
+
+	footer .desktop-footer { display: none; }
+	footer .socialmedia { display: none; }
+
+	footer .about { 
+		display: inline-block;
+		width: 45%;
+	}
+
+	footer .links { 
+		display: inline-block;
+		width: 45%;
+	}
+
+	footer .span_6 { margin-top: 20px; }
 }

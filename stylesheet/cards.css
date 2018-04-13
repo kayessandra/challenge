@@ -20,6 +20,12 @@
 
 .word-wrap{ white-space: normal; }
 
+#car-comparison .word-wrap h4 {
+	display: flex;
+	height: 75px;
+	align-items: center;
+}
+
 .promo-details div {
 	display: inline-block;
 	width: 49%;

@@ -89,7 +89,70 @@ body {
 
 .categories { text-align: right; }
 
+#subscription .card { 
+	width: 850px; 
+	margin: 0 auto;
+	align-items: center;
+	padding: 40px 20px;
+}
+
+#subscription img { width: 110px; }
+
+#news-reviews .article-list { list-style-type: none; }
+
+.article-list { padding-left: 0px; }
+
+.article-list li { 
+	border-bottom: 1px solid #e7e7e7; 
+	padding: 30px 20px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.article-list li:last-of-type { border-bottom: none; }
+
+.featured-article .article-image { width: 40%; }
+
+.article-image img { width: 100%; }
+
+.featured-article .article-details { width: 60%; }
+
+.article .article-image { width: 30%; }
+
+.article .article-details { width: 65%; }
+
+#car-comparison .image {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.comparison-image {
+	width: 50%;
+	height: 150px;
+	overflow: hidden;
+}
+.comparison-image img {
+	width: 270px !important;
+	right: -50%;
+}
+
+.three-cars .comparison-image {
+	width: 35%;
+	height: 150px;
+	overflow: hidden;
+}
+.three-cars .comparison-image img {
+	width: 270px !important;
+	right: -50%;
+}
+
+.usedcar-icons .blue-verified { width: 25px; }
+.usedcar-icons .verified_user { width: 25px; }
+
 footer {
 	background: #222222;
 	color: #ffffff;
 }
+
+footer .mobile-footer { display: none; }
+footer .desktop-footer { display: inline-flex; }
