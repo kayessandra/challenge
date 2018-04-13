@@ -15,9 +15,9 @@
 		padding-top: 5px;
 	}
 
-	.hero-wrapper { height: 450px; }
+	.hero-wrapper { height: 500px; }
 
-	.hero-image { height: 450px; }
+	.hero-image { height: 500px; }
 
 	.nav-links { display: none; }
 
@@ -30,7 +30,17 @@
 	.nav-drawer img { width: 18px; }
 
 	/* Hero header */
-	.hero-image { background-position: 70%; }
+	.hero-image { background-position: 50%; }
+
+	.hero-wrapper .container { 
+		top: 45%; 
+		text-align: center;
+	}
+
+	.white-bordered {
+		font-size: 12px;
+		padding: 10px 12px;
+	}
 	
 	.content { top: 25%; }
 	.content h1 { font-size: 23px; }
@@ -39,4 +49,14 @@
 	.hero-buttons a { margin-top: 5px; }
 
 	.subtext { padding: 20px 30px; }
+
+	.bottom-button {
+		padding: 10px 0px 0px 0px;
+		font-size: 12px;
+	}
+
+	.categories { 
+		margin-left: 0px !important; 
+		text-align: left;
+	}
 }

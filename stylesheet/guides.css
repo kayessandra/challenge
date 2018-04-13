@@ -82,3 +82,5 @@ hr {
 .paddingright { padding-right: 10px; }
 .paddingright20 { padding-right: 20px; }
 .paddingright30 { padding-right: 30px; }
+
+.borderright { border-right: 1px solid #e7e7e7; }

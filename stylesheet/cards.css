@@ -18,7 +18,7 @@
 	padding: 10px;
 }
 
-.card-content .textcenter { white-space: normal; }
+.word-wrap{ white-space: normal; }
 
 .promo-details div {
 	display: inline-block;
@@ -28,6 +28,11 @@
 .manufacturer-logo { 
 	width: 50px; 
 	float: right;
+}
+
+.video-card { 
+	border: 1px solid #333333; 
+	background: #333333;
 }
 
 @media only screen and (max-width: 600px) {
@@ -51,10 +56,18 @@
 	    overflow: hidden;
 	}
 
+	.card { margin-bottom: 0px; }
+
 	.card-content h4 { font-size: 14px; }
 
 	.manufacturer-logo { width: 40px; }
 
+	iframe { height: 200px; }
+
 	#featured-newcar-promo .helptext { display: none; }
 	#recent-newcar-promo .helptext { display: none; }
+	#latest-videos .helptext { display: none; }
+	#featured-usedcar .helptext { display: none; }
+	#car-comparison .helptext { display: none; }
+	#news-reviews .helptext { display: none; }
 }

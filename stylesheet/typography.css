@@ -67,6 +67,18 @@ a.button.secondary:hover {
     border: 1px solid #4A4A4A;
 }
 
+a.button.white-bordered {
+    background: transparent;
+    border: 1px solid #ffffff;
+}
+a.button.white-bordered:hover {
+    background: rgba(34,34,34,.5);
+    border: 1px solid #ffffff;
+}
+
+.whitelink { color: #ffffff; }
+.orangelink { color: #D66E48; }
+
 /* helpers */
 .bold { font-weight: bold; }
 .small { font-size: 12px; }
@@ -78,3 +90,6 @@ a.button.secondary:hover {
 .nomargin { margin: 0px; }
 
 .reducedopacity { opacity: 0.4; }
+
+.underlined { text-decoration: underline; }
+.uppercase { text-transform: uppercase; }
