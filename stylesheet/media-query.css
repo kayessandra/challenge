@@ -59,4 +59,10 @@
 		margin-left: 0px !important; 
 		text-align: left;
 	}
+
+	#brands .grid .span_2 {
+		width: 33%;
+		display: inline-block;
+		margin: 0px;
+	}
 }
