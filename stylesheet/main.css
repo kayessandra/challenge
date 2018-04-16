@@ -40,7 +40,48 @@ body {
 	padding-left: 30px;
 }
 
+.nav-links a:hover { color: #ffffff; }
+
+.nav-links a:hover .hoverlink {
+	display: block;
+}
+
+.hoverlink > div {
+	width: 48%;
+	display: inline-block;
+}
+
+.hoverlink {
+	display: none;
+	width: 400px;
+	background: #222222;
+	height: auto;
+	top: 25px;
+	left: 20px;
+	border-radius: 3px;
+}
+
+.comparison .hoverlink { left: -270px; }
+.more .hoverlink { left: -270px; }
+
+.hoverlink ul { 
+	list-style: none;
+	padding: 10px 20px;
+}
+
+.hoverlink li { 
+	padding: 15px 0px; 
+	border-bottom: 1px solid #555555;
+}
+
+.hoverlink li:last-of-type { border-bottom: none; }
+
 .nav-drawer { display: none; }
+
+.drawer { 
+	left: 1000px !important;
+	display: none;
+}
 
 /* Hero Header*/
 .hero-wrapper {

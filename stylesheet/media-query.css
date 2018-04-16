@@ -29,6 +29,40 @@
 
 	.nav-drawer img { width: 18px; }
 
+	.drawer {
+		position: fixed;
+	    width: 100%;
+	    height: auto;
+	    top: 0px;
+	    right: 0px;
+	    left: 1000px;
+	    bottom: 0px;
+	    background: #222222;
+	    padding-top: 40px;
+		transition: .3s all;
+		display: inline-block;
+	}
+
+	.drawer-show { 
+		left: 0px !important; 
+		transition: .3s all;
+	}
+
+	.drawer img { 
+		right: 30px; 
+		top: 30px;
+	}
+
+	.drawer ul { 
+		list-style: none; 
+		padding: 0px 20px;
+	}
+
+	.drawer li { 
+		padding: 15px 20px; 
+		border-bottom: 1px solid #555555;
+	}
+
 	/* Hero header */
 	.hero-image { background-position: 50%; }
 

@@ -95,3 +95,5 @@ form input[type="text"] {
 .paddingright30 { padding-right: 30px; }
 
 .borderright { border-right: 1px solid #e7e7e7; }
+
+.hidden { display: none; }

@@ -2,6 +2,8 @@
 <head>
 	<title>Responsive</title>
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<link rel="stylesheet" href="../stylesheet/main.css">
 	<link rel="stylesheet" href="../stylesheet/media-query.css">
 	<link rel="stylesheet" href="../stylesheet/guides.css">
@@ -14,21 +16,127 @@
 	<header class="main-header positionrelative">
 		<nav class="main-nav positionabsolute">
 			<div class="container grid">
-				<div class="col span_3">
+				<div class="col span_3 positionrelative">
 					<img src="../images/logo_white.png" alt="" class="site-logo">
 
 					<div class="nav-drawer">
-						<a href=""><img src="../images/icons/menu.svg" alt=""></a>
+						<a href=""><img src="../images/icons/menu.svg" alt="" class="menu-button"></a>
+					</div>
+
+					<div class="drawer">
+						<a href=""><img src="../images/icons/close.png" alt="" class="positionabsolute menu-close"></a>
+						<ul class="nomargin">
+							<li class="whitelink">Home</li>
+							<li class="whitelink">New Cars</li>
+							<li class="whitelink">Used Cars</li>
+							<li class="whitelink">News&amp;Reviews</li>
+							<li class="whitelink">Car Comparison</li>
+							<li class="whitelink">More</li>
+							<!-- <li class="whitelink">Sell Your Car</li> -->
+						</ul>
 					</div>
 				</div>
 				<div class="nav-links col span_9 textright">
 					<a href="" class="bold whitelink">Home</a>
-					<a href="" class="bold whitelink">New Cars</a>
-					<a href="" class="bold whitelink">Used Cars</a>
-					<a href="" class="bold whitelink">News &amp; Reviews</a>
-					<a href="" class="bold whitelink">Car Comparison</a>
-					<a href="" class="bold whitelink">More</a>
-					<a href="" class="bold whitelink">Sell Your Car</a>
+					<a href="" class="bold whitelink positionrelative">
+						New Cars
+
+						<div class="hoverlink positionabsolute textleft">
+							<div>
+								<ul class="nomargin">
+									<li>New Car Guide</li>
+									<li>Car Promo</li>
+									<li>Car Brands</li>
+									<li>New Car Partner Dealers</li>
+								</ul>
+							</div>
+							<div>
+								<ul class="nomargin">
+									<li>Car Comparison</li>
+									<li>Ford OFW Assist</li>
+									<li>Premium New Cars</li>
+									<li>Car Loan</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+					<a href="" class="bold whitelink positionrelative">
+						Used Cars
+
+						<div class="hoverlink positionabsolute textleft">
+							<div>
+								<ul class="nomargin">
+									<li>Used Cars for Sale</li>
+									<li>Sell Your Car</li>
+									<li>Car Advisor</li>
+									<li>Used Car Partner Dealers</li>
+								</ul>
+							</div>
+							<div>
+								<ul class="nomargin">
+									<li>Car Comparison</li>
+									<li>Trade In</li>
+									<li>Car Loan</li>
+									<li>Premium Used Cars</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+					<a href="" class="bold whitelink positionrelative">
+						News &amp; Reviews
+
+						<div class="hoverlink positionabsolute textleft">
+							<div>
+								<ul class="nomargin">
+									<li>Latest Stories</li>
+									<li>Car News</li>
+									<li>Car Reviews</li>
+								</ul>
+							</div>
+							<div>
+								<ul class="nomargin">
+									<li>Lifestyle</li>
+									<li>Tips &amp; Advice</li>
+									<li>Car Videos</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+					<a href="" class="bold whitelink comparison positionrelative">
+						Car Comparison
+
+						<div class="hoverlink positionabsolute textleft">
+							<div>
+								<ul class="nomargin">
+									<li>New Car Comparison</li>
+								</ul>
+							</div>
+							<div>
+								<ul class="nomargin">
+									<li>Used Car Comparison</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+					<a href="" class="bold more whitelink positionrelative">
+						More
+
+						<div class="hoverlink positionabsolute textleft">
+							<div>
+								<ul class="nomargin">
+									<li>New Car Comparison</li>
+								</ul>
+							</div>
+							<div>
+								<ul class="nomargin">
+									<li>Car Loan</li>
+									<li>OFW Advice</li>
+									<li>Become A Partner Dealer</li>
+								</ul>
+							</div>
+						</div>
+					</a>
+					<!-- <a href="" class="bold whitelink">Sell Your Car</a> -->
 				</div>
 			</div>
 		</nav>
@@ -47,7 +155,7 @@
 					<div class="hero-buttons margintop30">
 						<a href="" class="button white-bordered">Find a new car</a>
 						<a href="" class="button white-bordered">Buy a used car</a>
-						<a href="" class="button white-bordered">Sell A Car</a>
+						<a href="" class="button white-bordered">Sell your car</a>
 					</div>
 				</div>
 			</div>
@@ -922,4 +1030,22 @@
 		</div>
 	</footer>
 </body>
+
+<script>
+	 $(document).ready(function() {
+	 	$('.menu-button').on('click', function(e){
+	 		e.preventDefault();
+	 		$('.drawer').addClass('drawer-show');
+	 	});
+
+	 	$('.menu-close').on('click', function(e){
+	 		e.preventDefault();
+	 		$('.drawer').removeClass('drawer-show');
+	 	});
+
+	 	// #('.nav-links a').hover(function() {
+
+	 	// });
+	 });
+</script>
 </html>
